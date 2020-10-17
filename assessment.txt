@@ -1,0 +1,259 @@
+Wellcome!
+
+
+This is the result of 216_L8_1_fastqc(Slender):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+27 8.0
+28 138.0
+29 768.0
+30 1975.0
+31 3361.0
+32 4870.0
+33 6576.0
+34 8436.0
+35 10755.0
+36 13907.0
+37 17892.0
+38 24036.0
+39 34142.0
+40 58519.0
+41 64617.0
+
+This is the result of 216_L8_2_fastqc(Slender):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+27 27.0
+28 343.0
+29 1521.0
+30 3157.0
+31 4253.0
+32 5344.0
+33 6766.0
+34 8056.0
+35 9706.0
+36 11927.0
+37 15195.0
+38 19744.0
+39 28688.0
+40 52441.0
+41 82832.0
+
+This is the result of 218_L8_1_fastqc(Slender):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+27 8.0
+28 100.0
+29 529.0
+30 1322.0
+31 2167.0
+32 3173.0
+33 4392.0
+34 5775.0
+35 7393.0
+36 9642.0
+37 12533.0
+38 17017.0
+39 24682.0
+40 47095.0
+41 114172.0
+
+This is the result of 218_L8_2_fastqc(Slender):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+26 1.0
+27 37.0
+28 371.0
+29 1589.0
+30 3073.0
+31 4250.0
+32 5285.0
+33 6432.0
+34 7912.0
+35 9643.0
+36 11868.0
+37 15536.0
+38 21172.0
+39 32009.0
+40 59945.0
+41 70877.0
+
+This is the result of 219_L8_1_fastqc(Slender):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+27 16.0
+28 138.0
+29 777.0
+30 2038.0
+31 3480.0
+32 4956.0
+33 6490.0
+34 8691.0
+35 10954.0
+36 13853.0
+37 18492.0
+38 24953.0
+39 35617.0
+40 59064.0
+41 60481.0
+
+This is the result of 219_L8_2_fastqc(Slender):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+26 2.0
+27 19.0
+28 386.0
+29 1559.0
+30 3175.0
+31 4558.0
+32 5747.0
+33 6682.0
+34 8254.0
+35 9928.0
+36 11943.0
+37 15486.0
+38 20374.0
+39 29152.0
+40 53178.0
+41 79557.0
+
+This is the result of 220_L8_1_fastqc(Stumpy):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+27 9.0
+28 125.0
+29 508.0
+30 1201.0
+31 2000.0
+32 2902.0
+33 4067.0
+34 5534.0
+35 6921.0
+36 9243.0
+37 11971.0
+38 15887.0
+39 23558.0
+40 45671.0
+41 120403.0
+
+This is the result of 220_L8_2_fastqc(Stumpy):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+26 2.0
+27 17.0
+28 371.0
+29 1492.0
+30 2862.0
+31 4029.0
+32 4915.0
+33 6076.0
+34 7330.0
+35 9142.0
+36 11187.0
+37 14503.0
+38 19748.0
+39 29795.0
+40 57537.0
+41 80994.0
+
+This is the result of 221_L8_1_fastqc(Stumpy):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+27 5.0
+28 96.0
+29 547.0
+30 1254.0
+31 2188.0
+32 3079.0
+33 4345.0
+34 5686.0
+35 7311.0
+36 9630.0
+37 12489.0
+38 16474.0
+39 24087.0
+40 43142.0
+41 119667.0
+
+This is the result of 221_L8_2_fastqc(Stumpy):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+26 2.0
+27 27.0
+28 369.0
+29 1546.0
+30 3157.0
+31 4448.0
+32 5435.0
+33 6701.0
+34 8044.0
+35 9642.0
+36 11742.0
+37 14867.0
+38 19752.0
+39 28780.0
+40 54116.0
+41 81372.0
+
+This is the result of 222_L8_1_fastqc(Stumpy):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+27 10.0
+28 90.0
+29 472.0
+30 1174.0
+31 2116.0
+32 3061.0
+33 4251.0
+34 5616.0
+35 7481.0
+36 9821.0
+37 12391.0
+38 16476.0
+39 24039.0
+40 42799.0
+41 120203.0
+
+This is the result of 222_L8_2_fastqc(Stumpy):
+>>Total Sequences	250000
+>>Sequences flagged as poor quality	0
+>Per sequence quality scores
+#Quality Count
+26 2.0
+27 29.0
+28 402.0
+29 1748.0
+30 3402.0
+31 4566.0
+32 5658.0
+33 6897.0
+34 8216.0
+35 9791.0
+36 12089.0
+37 15109.0
+38 19687.0
+39 29035.0
+40 54104.0
+41 79265.0
