@@ -1,13 +1,29 @@
-cd ~/assignment1/results
-ls|sort>~/assignment1/resultlist.txt
-echo -e "Wellcome!\n">~/assignment1/assessment.txt
-while read dir_name
+ls ~/assignment1/results|
+while read file_name
 do
-if [[ $dir_name == *".html" || $dir_name == *".zip" ]]
+if [[ $file_name == *".html" || $file_name == *".zip" ]]
 then
 continue
 else
-echo -e "\nThis is the result of $dir_name:">>~/assignment1/assessment.txt
+echo $file_name
+fi
+done|sort>~/assignment1/dirlist.txt
+
+echo -e "Wellcome!\n">~/assignment1/assessment.txt #just to start a new file
+
+while read dir_name
+do
+#assign the form of T.b. to each result
+while read num stage q1 q2 
+do
+if [[ "$dir_name" == *"$num"* ]]
+then 
+form=$stage
+fi
+done</localdisk/data/BPSM/Assignment1/fastq/fqfiles
+
+echo -e "\nThis is the result of $dir_name($form):">>~/assignment1/assessment.txt
+
 Q=0    #set original parameter for printing
 while read line
 do
@@ -39,5 +55,5 @@ echo $line
 fi
 
 done<~/assignment1/results/$dir_name/fastqc_data.txt>>~/assignment1/assessment.txt
-fi
-done<~/assignment1/resultlist.txt
+
+done<~/assignment1/dirlist.txt

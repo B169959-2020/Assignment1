@@ -16,7 +16,17 @@ echo -e "Wellcome!\n">~/assignment1/assessment.txt #just to start a new file
 
 while read dir_name
 do
-echo -e "\nThis is the result of $dir_name:">>~/assignment1/assessment.txt
+#assign the form of T.b. to each result
+while read num stage q1 q2 
+do
+if [[ "$dir_name" == *"$num"* ]]
+then 
+form=$stage
+fi
+done</localdisk/data/BPSM/Assignment1/fastq/fqfiles
+
+echo -e "\nThis is the result of $dir_name($form):">>~/assignment1/assessment.txt
+
 Q=0    #set original parameter for printing
 while read line
 do
