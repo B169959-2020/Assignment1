@@ -1,0 +1,6 @@
+#!/bin/bash
+cd bowtiealign
+./indexbuild.sh
+./alignbow.sh
+./samtobam.sh
+

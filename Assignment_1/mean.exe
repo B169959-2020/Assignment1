@@ -1,0 +1,6 @@
+#!/bin/bash
+cd bedgene
+./bam_bed.sh
+./group.sh
+./average.sh
+
