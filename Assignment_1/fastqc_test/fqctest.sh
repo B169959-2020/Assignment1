@@ -1,10 +1,12 @@
+#run fastqc with data of dir fastq, output to dir fqcoutput
 mkdir fqcoutput
-fastqc --extract -o fqcoutput /localdisk/data/BPSM/Assignment1/fastq/*.fq.gz
+fastqc --extract -o fqcoutput /localdisk/data/BPSM/Assignment1/fastq/*.fq.gz 
+
 
 ls fqcoutput|
 while read file_name
 do
-if [[ $file_name == *".html" || $file_name == *".zip" ]]
+if [[ $file_name == *".html" || $file_name == *".zip" ]] #chose the readable files for next steps
 then
 continue
 else
@@ -12,11 +14,11 @@ echo $file_name
 fi
 done|sort>dirlist.txt
 
-echo -e "Wellcome!\n">../result_assessment.txt #just to start a new file
+echo -e "Wellcome!\n">../result_assessment.txt #just to start a new text 
 
 while read dir_name
 do
-#assign the form of T.b. to each result
+#assign the form names of T.b.b to each result
 while read num stage q1 q2 
 do
 if [[ "$dir_name" == *"$num"* ]]
@@ -28,6 +30,7 @@ done</localdisk/data/BPSM/Assignment1/fastq/fqfiles
 echo -e "\nThis is the result of $dir_name($form):">>../result_assessment.txt
 
 Q=0    #set original parameter for printing
+# search for information relecant to quality and total sequences
 while read line
 do
 if [[ $line == *"Total Sequences"* ]]
@@ -49,7 +52,7 @@ fi
 
 if [[ $line == ">>END_MODULE" ]]
 then
-Q=0     #stop printing at each end
+Q=0     #stop printing at the end of each part
 fi
 
 if [[ $Q == 1 ]] 
