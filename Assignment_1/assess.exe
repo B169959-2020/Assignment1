@@ -1,4 +1,0 @@
-#!/bin/bash
-cd fastqc_test
-
-./fqctest.sh
